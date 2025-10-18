@@ -1,0 +1,77 @@
+/* SECTION WELCOME STYLES */
+.section-welcome {
+    background-color: #1D376A;
+    width: 100%;
+    height: 300px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.section-welcome-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-welcome-header h1{
+    line-height: 0;
+    color: white;
+    font-size: 44px;
+}
+.section-welcome-highlight-header {
+    color: #FF741F;
+}
+/* SECTION WELCOME STYLES END */
+/* SECTION ONE STYLES */
+.section-one {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 50px;
+}
+.section-one-img-container {
+    width: 40%;
+}
+.section-one-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 0px 40px;
+    background-color: #FF741F;
+    border-radius: 0px 80px 80px 80px;
+    color: white;
+}
+.section-one-header-container {
+    width: 100%;
+}
+.section-one-img-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+/* SECTION ONE STYLES END */
+
+@media (320px > width ) {
+
+} 
+
+@media (720px > width ) {
+    
+} 
+
+@media (920px > width ) {
+    
+} 
+
+@media (1200px > width ) {
+    
+} 
+
+@media (1520px > width ) {
+    
+} 
