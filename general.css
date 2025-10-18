@@ -1,0 +1,116 @@
+/* 
+SCREEN SIZES::after
+SMALL 320px
+MEDIUM 720
+LARGE 920
+DESKTOP 1200
+INFINITE 1520
+*/
+
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+/* END OF IMPORTS */
+
+/* STYLES FOR BODY */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    font-family: 'Arimo';
+}
+/* STYLES FOR HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    padding: 10px 0px;
+}
+
+.header-main-container {
+    overflow: hidden;
+}
+
+.header-links-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 90%;
+    gap: 40px;
+    position: sticky;
+    padding-left: 20px;
+}
+.header-links-container a {
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    user-select: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.header-links-container a:hover {
+    background-color: #fe8d47;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+
+.header-phone-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    text-wrap: nowrap;
+    padding-right: 20px;
+    color: white;
+    gap: 5px;
+}
+.header-phone-number a {
+    text-decoration: none;
+    color: white;
+}
+.header-phone-number a:hover {
+    text-decoration: underline;
+}
+/* END OF HEADER STYLES */
+
+/* GENERAL STYLES */
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pos-relative {
+    position: relative;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* END OF GENERAl STYLES */
+
+@media (320px > width ) {
+
+} 
+
+@media (720px > width ) {
+    
+} 
+
+@media (920px > width ) {
+    
+} 
+
+@media (1200px > width ) {
+    
+} 
+
+@media (1520px > width ) {
+    
+} 
